@@ -1,0 +1,72 @@
+day-01 Task
+
+Q.1)Write a blog on Difference between HTTP1.1 vs HTTP2
+ans:
+HTTP is hypertext transfer protocal that have been evolved since 1970s.it connects multiple computers initially for communication and data sharing.
+
+its main function is connecting two Ip address from the request side to the server side ip address with tcp 3-way hand shake
+
+differences
+
+                     HTTP 1.1                                                   HTTP 2     
+ 1)As earlier versions were only supported header version simple webpage        1)it was introduced in 2015 for faster and handle more traffic
+but later the task and complexity of webpage increased to overcome 
+this HTTP 1.1 was introduced in 1990    
+
+2)it allows multiple request and response per TCP connection.                   2)multiple requset and response with multiple TCP connection
+
+3)it is slower when multiple request placed in one TCP connection.              3)it is faster as multiple request per multiple TCP connection
+
+4)there is no binary conversion of the request                                  4)it converts the request to binary conversion it is secure
+
+
+
+
+Q.2)blog about objects and its internal representation in Javascript
+
+1)objects are data types used to represent in the format of key:value that contains data in this format.
+
+2)objects and json looks similar but there are difference between them
+
+3)json script are language independant that can be accessed through any language
+
+example-objects
+code:
+let mobile={color:"red",model:"apple",memory:"123GB"}
+console.log(mobile.color)
+output:red
+
+we can get key value of an object using the syntax (object.required key name) 
+
+where as json script comes with a string in both key and value
+
+example-json
+code:
+let mobile={"color":"red","model":"apple","memory":"123GB"}
+console.log(mobile.color)
+output:red
+
+objects represented with =>{} syntax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
